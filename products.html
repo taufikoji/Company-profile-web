@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Produk Kami - Perusahaan Furniture</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Produk - [Nama Perusahaan]</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Perusahaan Furniture</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Beranda</a></li>
-          <li><a href="about.html">Tentang Kami</a></li>
-          <li><a href="products.html" class="active">Produk</a></li>
-          <li><a href="contact.html">Kontak</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="products">
-      <div class="container">
-        <h2>Produk Kami</h2>
-        <div class="product-grid">
-          <div class="product-item">
-            <img src="assets/images/kursi.jpg" alt="Kursi Kayu" />
-            <h3>Kursi Kayu Minimalis</h3>
-            <p>Terbuat dari kayu jati berkualitas, cocok untuk ruang tamu atau ruang santai.</p>
-          </div>
-          <div class="product-item">
-            <img src="assets/images/meja.jpg" alt="Meja Makan" />
-            <h3>Meja Makan Klasik</h3>
-            <p>Meja makan elegan dengan desain klasik yang nyaman dan kuat.</p>
-          </div>
-          <div class="product-item">
-            <img src="assets/images/lemari.jpg" alt="Lemari Kayu" />
-            <h3>Lemari Kayu Modern</h3>
-            <p>Lemari serbaguna dengan desain modern, cocok untuk berbagai kebutuhan penyimpanan.</p>
-          </div>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo"><a href="index.html">[LOGO]</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="products.html" class="active">Produk</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </section>
-  </main>
+    </header>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Perusahaan Furniture. Semua hak dilindungi.</p>
-    </div>
-  </footer>
+    <!-- Hero Section -->
+    <section class="hero products-hero">
+        <div class="hero-text">
+            <h1>Produk Kami</h1>
+            <p>Koleksi furnitur dengan keanggunan desain dan kualitas warisan.</p>
+        </div>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="section product-gallery">
+        <div class="container">
+            <div class="product-grid">
+
+                <!-- Produk 1 -->
+                <div class="product-item">
+                    <img src="assets/images/product1.jpg" alt="Produk 1" />
+                    <h3>Kursi Klasik Kayu Jati</h3>
+                    <p>Desain elegan dengan ukiran tradisional dan bahan kayu jati solid.</p>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="product-item">
+                    <img src="assets/images/product2.jpg" alt="Produk 2" />
+                    <h3>Meja Makan Rustic</h3>
+                    <p>Sentuhan rustic modern, cocok untuk ruang makan keluarga.</p>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="product-item">
+                    <img src="assets/images/product3.jpg" alt="Produk 3" />
+                    <h3>Lemari Ukiran Bali</h3>
+                    <p>Detail ukiran tangan dari pengrajin Bali yang menawan.</p>
+                </div>
+
+                <!-- Tambah produk lainnya sesuai kebutuhan -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Nama Perusahaan]. Seluruh hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
