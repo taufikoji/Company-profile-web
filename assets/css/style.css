@@ -73,6 +73,36 @@ nav a:hover {
   text-align: center;
 }
 
+.page-header {
+  background: #eaeaea;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.page-header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding: 40px 20px;
+  line-height: 1.8;
+}
+
+.content h3 {
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.content ul li {
+  margin-bottom: 8px;
+}
+
 footer {
   background: #333;
   color: #ccc;
