@@ -103,6 +103,43 @@ nav a:hover {
   margin-bottom: 8px;
 }
 
+.products {
+  padding: 40px 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-item h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.product-item p {
+  font-size: 14px;
+  color: #666;
+}
+
 footer {
   background: #333;
   color: #ccc;
